@@ -1,0 +1,33 @@
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('linkedin.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+}
+.navbar { background: #333; color: #fff; padding: 10px 20px;}
+.navbar a { color: #fff; text-decoration: none; padding: 10px 15px; display: inline-block; }
+.navbar a:hover { background: #555; }
+
+header { text-align: center; }
+header h1 { margin-bottom: 20px; }
+header p { font-size: 1.3em; }
+
+section { padding: 20px 0; }
+.container { width: 80%; margin: auto; overflow: hidden; }
+.card { background: #fff; padding: 20px; margin-bottom: 20px; }
+.card img { max-width: 100px; margin-bottom: 20px; }
+.card h3 { margin-bottom: 10px; }
+.card p { font-size: 1.1em; margin-bottom: 15px; }
+.card a { display: inline-block; text-decoration: none; color: #333; background: #f4f4f4; padding: 10px 15px; border: 1px solid #ccc; }
+.card a:hover { border-color: #333; }
+
+.contact-form { background: #fff; padding: 30px; margin-top: 20px; }
+.contact-form label { display: block; margin-bottom: 5px; }
+.contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; }
+.contact-form button { width: 100%; padding: 15px; border: 0; background: #333; color: #fff; cursor: pointer; }
+.contact-form button:hover { background: #555; }
+
+footer { background: #333; color: #fff; text-align: right; padding: 20px 0;}

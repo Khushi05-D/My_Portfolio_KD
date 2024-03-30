@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<header id="home">
+  <h1>Welcome to My Portfolio</h1>
+  <h2>Khushi Dadheech</h2>
+  <p>I'm Khushi Dadheech, a passionate third-year student pursuing my B.Tech in Information Technology at Banasthali Vidyapith. I have a keen interest in exploring the dynamic world of technology and its applications. My journey in IT has been fueled by a curiosity to understand how technology shapes our lives and transforms industries.</p>
+</header>
+
+<section id="about" class="container">
+  <div class="card">
+    <h3>About Me</h3>
+    <ul>
+      <li>Third-year BTech IT student with a passion for technology</li>
+      <li>Strong foundation in programming, database management, and web development</li>
+      <li>Active participation in hackathons, coding competitions, and workshops</li>
+      <li>Proficient in Java, Python, C++, HTML, CSS, JavaScript, and MySQL</li>
+      <li>Stay updated with emerging technologies and industry trends</li>
+      <li>Recognized for achievements in academic and extracurricular activities</li>
+      <li>Eager to contribute to the tech community and tackle complex challenges</li>
+    </ul>
+  </div>
+</section>
+
+<section id="portfolio" class="container">
+  <div class="card">
+    <h2>My Projects</h2>
+    <a href="https://github.com/Khushi05-D/Advanced-Calculator-with-Cpp-.git">Scientific Calculator (C++)</a>
+    <p>
+      Implemented diverse mathematical functionalities, including arithmetic, trigonometric, exponential, and logarithmic operations, showcasing a broad spectrum of mathematical capabilities in the project. Designed a user-friendly interface to facilitate seamless interaction, enhancing navigation throughout the software and demonstrating proficiency in creating robust solutions for complex mathematical tasks within the calculator.
+    </p>
+    <a href="https://github.com/Khushi05-D/Tic-Tac-Toe-with-Cpp-.git">Tic-Tac-Toe (C++)</a>
+    <p>
+      Showcased expertise in array manipulation, user input/output, conditional statements, and loops while implementing player turns, grid management, and win/draw conditions in a console-based Tic Tac Toe game using C++.
+    </p>
+    <a href="https://github.com/Khushi05-D/IWL_LAB-work-.git">Lab Assigments</a>
+    <p>
+      These are all the IWT lab assignments done by me.
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="container">
+  <h2>Contact Me</h2>
+  <div class="contact-form">
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <label for="message">Message</label>
+    <textarea id="message" placeholder="Enter your message" required></textarea>
+    <button type="button" onclick="submitForm()">Send Message</button>
+    <p id="status"></p>
+  </div>
+</section>
+
+<footer>
+  <p>Copyright © Khushi Dadheech</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
